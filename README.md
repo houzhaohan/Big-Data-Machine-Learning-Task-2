@@ -23,7 +23,7 @@
 式中：xh是小时均值处理后数据，xi是每10分钟各采样点数据。\
 • 数据归一化：\
 为提高算法收敛速度和精度，使模型建立、学习、训练和预测的效果更好，需要对数据进行标准化处理。\
-本实验采用数据归一化方法中的最大最小值归一化法，即线性函数归一化法。其原理是：通过使用数据集中数据的最大值和最小值进行标准化处理，使得处理后的数据集中在大于0小于1的区间范围内，具体公式为：
+本实验采用数据归一化方法中的最大最小值归一化法，即线性函数归一化法。其原理是：通过使用数据集中数据的最大值和最小值进行标准化处理，使得处理后的数据集中在大于0小于1的区间范围内，具体公式为：\
 ![image](https://github.com/user-attachments/assets/852615b2-253f-4313-9b7d-957c8e45bf81)\
 式中：X∗为归一化处理后数据，X是采集的环境参数，Xmax、Xmin是环境参数中最大值与最小值。
 
@@ -70,16 +70,22 @@ EEMD分解结果\
 ### 四、实验结果
 ![image](https://github.com/user-attachments/assets/a0df22c8-5fd8-46f3-a728-20385bf4be67)\
 EEMD-GRU.py运行出的CO2预测值和测量值对比图\
+
 ![image](https://github.com/user-attachments/assets/6bb87053-d4d0-44ce-96b6-33bd6cef18de)\
 WinBP.py运行出的Model loss训练集和测试集结果\
+
 ![image](https://github.com/user-attachments/assets/aa26a71a-36da-4dec-8c89-dcc226c3040e)\
 WinBP.py运行出的BP模型的CO2预测值和测量值对比图\
+
 ![image](https://github.com/user-attachments/assets/bba64dd9-b80b-401f-9c92-8af0736e2b3a)\
 GRU.py运行后的训练集和测试集结果\
+
 ![image](https://github.com/user-attachments/assets/593d833c-8aa2-4221-b3da-81fc9c726959)\
 在epochs=200, batch_size=128参数下GRU对CO2预测值和真实值对比图\
+
 ![image](https://github.com/user-attachments/assets/c03f1996-db8f-4e4d-8603-2c2457b02502)\
 在epochs=400, batch_size=256参数下GRU对CO2预测值和真实值对比图\
+
 ![image](https://github.com/user-attachments/assets/720003d0-ac41-4236-9f24-dcdd316cc64e)\
 在epochs=100, batch_size=64参数下GRU对CO2预测值和真实值对比图
 
