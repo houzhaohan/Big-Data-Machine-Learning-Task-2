@@ -69,22 +69,22 @@ EEMD分解结果\
 
 ### 四、实验结果
 ![image](https://github.com/user-attachments/assets/a0df22c8-5fd8-46f3-a728-20385bf4be67)\
-EEMD-GRU.py运行出的CO2预测值和测量值对比图\
+EEMD-GRU.py运行出的CO2预测值和测量值对比图
 
 ![image](https://github.com/user-attachments/assets/6bb87053-d4d0-44ce-96b6-33bd6cef18de)\
-WinBP.py运行出的Model loss训练集和测试集结果\
+WinBP.py运行出的Model loss训练集和测试集结果
 
 ![image](https://github.com/user-attachments/assets/aa26a71a-36da-4dec-8c89-dcc226c3040e)\
-WinBP.py运行出的BP模型的CO2预测值和测量值对比图\
+WinBP.py运行出的BP模型的CO2预测值和测量值对比图
 
 ![image](https://github.com/user-attachments/assets/bba64dd9-b80b-401f-9c92-8af0736e2b3a)\
-GRU.py运行后的训练集和测试集结果\
+GRU.py运行后的训练集和测试集结果
 
 ![image](https://github.com/user-attachments/assets/593d833c-8aa2-4221-b3da-81fc9c726959)\
-在epochs=200, batch_size=128参数下GRU对CO2预测值和真实值对比图\
+在epochs=200, batch_size=128参数下GRU对CO2预测值和真实值对比图
 
 ![image](https://github.com/user-attachments/assets/c03f1996-db8f-4e4d-8603-2c2457b02502)\
-在epochs=400, batch_size=256参数下GRU对CO2预测值和真实值对比图\
+在epochs=400, batch_size=256参数下GRU对CO2预测值和真实值对比图
 
 ![image](https://github.com/user-attachments/assets/720003d0-ac41-4236-9f24-dcdd316cc64e)\
 在epochs=100, batch_size=64参数下GRU对CO2预测值和真实值对比图
